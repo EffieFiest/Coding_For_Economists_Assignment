@@ -1,0 +1,19 @@
+Instructions for the state files:
+
+The raw .csv file used is "IKEA_SA_Furniture_Web_Scrapings_sss.csv"
+
+The first do-file for data cleaning and re-structuring is
+ - "IKEA-datacleaning.do"
+ - This first do-file produces the "IKEA_SA_Furniture_Web_Scrapings_CLEAN.dta" File
+ (- I included the resulting .dta files from the do-files just as a backup)
+
+The second do-file for re-structuring and merging is 
+ - "IKEA-datasubet.do"
+ - The second do-file produces the "IKEA_SA_Furniture_Web_Scrapings_subset.dta" and the      
+   "IKEA_SA_Furniture_Web_Scrapings_subset_corret.dta" files
+
+The third do-file for graphing and regressions is 
+ - "IKEA-regression-graphing.do"
+ - The third do-file produces "Regression_Output.xls" and "Piechart.png"
+
+the fourth do-file ist a MASTERFILE including all the above do-files in correct order. 
